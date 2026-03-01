@@ -1,0 +1,41 @@
+{
+  "name": "anime-app-backend",
+  "version": "1.0.0",
+  "description": "RESTful API for anime tracking app - Tags: nodejs, express, mongodb, jwt, rest-api",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"No tests configured yet\"",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosMesiasPro/anime-app-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MarcosMesiasPro/anime-app-backend/issues"
+  },
+  "homepage": "https://github.com/MarcosMesiasPro/anime-app-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.2.1",
+    "express-validator": "^7.3.1",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.3",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
